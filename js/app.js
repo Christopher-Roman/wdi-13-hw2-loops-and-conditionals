@@ -126,5 +126,10 @@ console.log(`Kristyn is doing laundry so she is wearing ${kristynsCloset[0]} and
 console.log(`Kristyn is doing laundry so she is wearing ${kristynsCloset[3]} and ${kristynsCloset[5]} and ${kristynsCloset[1]}.`)
 
 
+// Dirty Laundry
 
+for(let i = 0; i < kristynsCloset.length; i++){
+	console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
 
+console.log(thomsCloset[0], thomsCloset[1], thomsCloset[2])
