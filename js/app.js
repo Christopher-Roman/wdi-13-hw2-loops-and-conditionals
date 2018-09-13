@@ -57,3 +57,19 @@ reuben.push("Chicago");
 //jim.push("Chicago", "Orlando", "Charlotte");
 jim.splice(2, 1, "Chicago", "Orlando", "Charlotte");
 jim.splice(4);
+
+// Yell at the Ninja Turtles
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for(let i = 0; i < ninjaTurtles.length; i++){
+	console.log(ninjaTurtles[i].toUpperCase());
+}
+
+
+
+
+
+
+
+
