@@ -66,9 +66,64 @@ for(let i = 0; i < ninjaTurtles.length; i++){
 	console.log(ninjaTurtles[i].toUpperCase());
 }
 
+// Return of the Closets
 
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
 
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
 
+const kristynsShoe = [];
+
+kristynsShoe.push(kristynsCloset[0]);
+
+console.log(kristynsShoe);
+
+thomsCloset[2].push(kristynsShoe[0])
+
+console.log(thomsCloset[2]);
+
+// Thom's Outifts
+
+console.log(`Thom will be wearing ${thomsCloset[0][2]} with a comfortable pair of ${thomsCloset[1][2]} and what will really pull the outfit together is ${thomsCloset[2][3]}`)
+
+console.log(`Thom will be wearing ${thomsCloset[0][1]} with a comfortable pair of ${thomsCloset[1][1]} and what will really pull the outfit together is ${thomsCloset[2][2]}`)
+
+console.log(`Thom will be wearing ${thomsCloset[0][0]} with a comfortable pair of ${thomsCloset[1][0]} and what will really pull the outfit together is ${thomsCloset[2][1]}`)
+
+// Kristyn's Outfits
+
+console.log(`Kristyn is doing laundry so she is wearing ${kristynsCloset[0]} and ${kristynsCloset[2]} and ${kristynsCloset[3]} and ${kristynsCloset[4]}.`)
+
+console.log(`Kristyn is doing laundry so she is wearing ${kristynsCloset[0]} and ${kristynsCloset[1]} and ${kristynsCloset[3]} and ${kristynsCloset[5]}.`)
+
+console.log(`Kristyn is doing laundry so she is wearing ${kristynsCloset[3]} and ${kristynsCloset[5]} and ${kristynsCloset[1]}.`)
 
 
 
