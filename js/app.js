@@ -133,3 +133,14 @@ for(let i = 0; i < kristynsCloset.length; i++){
 }
 
 console.log(thomsCloset[0], thomsCloset[1], thomsCloset[2])
+
+// Multiples of 3 and 5
+
+num = 0;
+
+for(let i = 1; i <= 1000; i++){
+	if(i % 3 === 0 || i % 5 === 0){
+		num += i;
+	}
+}
+console.log(num);
